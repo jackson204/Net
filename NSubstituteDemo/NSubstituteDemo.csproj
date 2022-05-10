@@ -94,6 +94,7 @@
         <Compile Include="Demo.cs" />
         <Compile Include="IMediator.cs" />
         <Compile Include="MyClass.cs" />
+        <Compile Include="PaginationTest.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
