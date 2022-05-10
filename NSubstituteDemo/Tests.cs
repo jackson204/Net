@@ -62,5 +62,20 @@ namespace NSubstituteDemo
             demo.Age.Should().Be(12);
             demo.Name.Should().Be("DemoName");
         }
+        [Fact]
+        public void TestReceived()
+        {
+            _target.MyClassMethod();
+
+            _mediator.Received().MediatorMethod(
+                Arg.Is<string>(s => s.Contains("ABC")),
+                Arg.Is<int>(r => r == 123),
+                Arg.Is<bool>(b => b == true)
+            );
+
+            _mediator.Received().MediatorMethod2(Arg.Is<Demo>(r =>
+                r.Age == 12 &&
+                r.Name == "DemoName"));
+        }
     }
 }

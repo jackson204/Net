@@ -2,5 +2,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ef3f6c4_002D5a1f_002D4c5c_002Daf4d_002D38ac97442ee5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::8F8C3656-473C-4944-9B48-0F1B9CAC3F42::.NETFramework,Version=v4.8::NSubstituteDemo.Tests.Invoking_Throw&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F8C3656-473C-4944-9B48-0F1B9CAC3F42::.NETFramework,Version=v4.8::NSubstituteDemo.Tests.TestDo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F8C3656-473C-4944-9B48-0F1B9CAC3F42::.NETFramework,Version=v4.8::NSubstituteDemo.Tests.TestWhenDo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F8C3656-473C-4944-9B48-0F1B9CAC3F42::.NETFramework,Version=v4.8::NSubstituteDemo.Tests.TestReceived&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
