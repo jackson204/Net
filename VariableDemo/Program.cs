@@ -36,6 +36,13 @@ namespace VariableDemo
             Console.WriteLine(result1);
             Console.WriteLine(result2);
 
+            int n1 = 10;
+            int n2 = 22;
+            n1 = n1 + n2;
+            n2 = n1 - n2;
+            n1 = n1 - n2;
+            Console.WriteLine($"n1 = {n1}  , n2 = {n2}");
+
         }
 
         private static bool IsEven(int number)
