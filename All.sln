@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableDemo", "VariableDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDemo", "StringDemo\StringDemo.csproj", "{53A14E54-6AEC-49AE-A492-55F93DF3B0B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchDemo", "TryCatchDemo\TryCatchDemo.csproj", "{3C37A9FA-F2BF-4D12-A165-0025A5730F1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{53A14E54-6AEC-49AE-A492-55F93DF3B0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A14E54-6AEC-49AE-A492-55F93DF3B0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A14E54-6AEC-49AE-A492-55F93DF3B0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C37A9FA-F2BF-4D12-A165-0025A5730F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C37A9FA-F2BF-4D12-A165-0025A5730F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C37A9FA-F2BF-4D12-A165-0025A5730F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C37A9FA-F2BF-4D12-A165-0025A5730F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
