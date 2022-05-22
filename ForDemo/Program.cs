@@ -6,12 +6,22 @@ namespace ForDemo
     {
         public static void Main(string[] args)
         {
-            Q1();
-            Q2();
-           Q3();
-           Q4();
-             Q5();
-             Q6();
+            int number = 300;
+            int i = 1;
+            while(i < number)
+            {
+                if (300%i==0)
+                {
+                    Console.WriteLine(i);
+                }
+                i++;
+            }
+            // Q1();
+            // Q2();
+            // Q3();
+            // Q4();
+            // Q5();
+            // Q6();
         }
 
         static void Q1()
@@ -52,13 +62,13 @@ namespace ForDemo
                 for(int j = 5; j >= 0; j--)
                 {
                     if (i < j)
-                    {   Console.Write(" ");
+                    {
+                        Console.Write(" ");
                     }
                     else
                     {
                         Console.Write("*");
                     }
-                 
                 }
                 Console.WriteLine("");
             }
@@ -68,7 +78,7 @@ namespace ForDemo
         {
             DisplayHeader("靠右對齊倒三角形");
             int rows = 5;
-            for (int i = rows; i >0; i--)
+            for(int i = rows; i > 0; i--)
             {
                 string row = new string(' ', rows - i) + new string('*', i);
                 Console.WriteLine(row);
@@ -78,13 +88,12 @@ namespace ForDemo
         static void Q5()
         {
             DisplayHeader("等腰三角形");
-            
 
             int rows = 4;
 
-            for (int i = 1; i <= rows; i++)
+            for(int i = 1; i <= rows; i++)
             {
-                string row = new string(' ', rows - i) + new string('*', i*2-1);
+                string row = new string(' ', rows - i) + new string('*', i * 2 - 1);
                 Console.WriteLine(row);
             }
         }
@@ -94,7 +103,7 @@ namespace ForDemo
             DisplayHeader("倒等腰三角形");
             int rows = 4;
 
-            for (int i = rows; i >0; i--)
+            for(int i = rows; i > 0; i--)
             {
                 string row = new string(' ', rows - i) + new string('*', i * 2 - 1);
                 Console.WriteLine(row);
