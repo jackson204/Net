@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElseDemo", "IfElseDemo\If
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForDemo", "ForDemo\ForDemo.csproj", "{F977BECE-2197-4B2F-8BF3-2932A9CB622E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseDemo", "TryParseDemo\TryParseDemo.csproj", "{D0397030-2FB1-4716-9468-84949B7B55C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{F977BECE-2197-4B2F-8BF3-2932A9CB622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F977BECE-2197-4B2F-8BF3-2932A9CB622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F977BECE-2197-4B2F-8BF3-2932A9CB622E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0397030-2FB1-4716-9468-84949B7B55C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0397030-2FB1-4716-9468-84949B7B55C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0397030-2FB1-4716-9468-84949B7B55C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0397030-2FB1-4716-9468-84949B7B55C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
