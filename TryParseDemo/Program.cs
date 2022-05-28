@@ -7,28 +7,16 @@ namespace TryParseDemo
     {
         public static void Main(string[] args)
         {
-            while(true)
-            {
-                Console.Write("請輸入您的年齡(整數),如果輸入 x 表示要結束程式:");
-                var input = Console.ReadLine();
-                if (input =="x")
-                {
-                    return;
-                }
-                var isInt = int.TryParse(input,out var age);
-                if (isInt)
-                {
-                    Console.WriteLine($"您輸入的值是 {age}");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine($"您輸入的值是 {age}");
-                    Console.WriteLine("您沒有輸入正確的數值, 請再試一次\r\n");
-                }
-            }
-          
+            //使用Convert 進行轉換 成功舊城，失敗就掏異常  Convert.ToInt32 內部使用就是用int.Parse
+            // var numberOne = Convert.ToInt32("123a");
+            //另一種寫法
+            // var numberOne = int.Parse("123a");
+
+            var b = int.TryParse("123a" , out var result );
+            Console.WriteLine(result);           
             
+             b = int.TryParse("123" , out  result );
+            Console.WriteLine(result);
         }
     }
 }
