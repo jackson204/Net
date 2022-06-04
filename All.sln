@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstDemo", "ConstDemo\Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{41C52A1C-1A80-46D9-ABDA-71449B31961A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outDemo", "outDemo\outDemo.csproj", "{93168E17-3965-478A-B286-766E66B7C084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{41C52A1C-1A80-46D9-ABDA-71449B31961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41C52A1C-1A80-46D9-ABDA-71449B31961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41C52A1C-1A80-46D9-ABDA-71449B31961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93168E17-3965-478A-B286-766E66B7C084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93168E17-3965-478A-B286-766E66B7C084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93168E17-3965-478A-B286-766E66B7C084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93168E17-3965-478A-B286-766E66B7C084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
