@@ -16,7 +16,28 @@ namespace TryParseDemo
             Console.WriteLine(result);           
             
              b = int.TryParse("123" , out  result );
+            Console.WriteLine( b);
             Console.WriteLine(result);
+
+            bool c= MyTryParse("123a", out var result2);
+            Console.WriteLine( result2);
+        }
+
+        private static bool MyTryParse(string input, out int result)
+        {
+            result = 0;
+            try
+            {
+                result = Convert.ToInt32(input);
+                return true;
+               
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+            
+          
         }
     }
 }
