@@ -20,6 +20,10 @@ namespace ConstructorDemo
             Age = age;
         }
 
-       
+        public Student(string name)
+            : this(name, 0)
+        {
+            
+        }
     }
 }

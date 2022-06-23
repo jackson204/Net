@@ -16,6 +16,8 @@ namespace ConstructorDemo
             Console.WriteLine(new string('*',10));
 
             var student = new Student("HelloA", 12);
+            
+            var student2 = new Student("HelloA");
         }
     }
 }
