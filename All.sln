@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetcodeDemo", "LeetcodeDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeldgateDemo", "DeldgateDemo\DeldgateDemo.csproj", "{1893871A-0D3D-4E64-B458-5E4092B43E2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{0B359730-7967-4912-9B5A-E949783A6C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "..\..\..\Temp\ConsoleApplication2\ConsoleApplication2.csproj", "{F16FABA1-88F8-4AE1-9F50-00299436E0EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +130,13 @@ Global
 		{1893871A-0D3D-4E64-B458-5E4092B43E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1893871A-0D3D-4E64-B458-5E4092B43E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1893871A-0D3D-4E64-B458-5E4092B43E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B359730-7967-4912-9B5A-E949783A6C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B359730-7967-4912-9B5A-E949783A6C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B359730-7967-4912-9B5A-E949783A6C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B359730-7967-4912-9B5A-E949783A6C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16FABA1-88F8-4AE1-9F50-00299436E0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16FABA1-88F8-4AE1-9F50-00299436E0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16FABA1-88F8-4AE1-9F50-00299436E0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16FABA1-88F8-4AE1-9F50-00299436E0EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
